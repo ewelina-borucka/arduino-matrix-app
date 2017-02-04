@@ -1,0 +1,278 @@
+/* -------------------------- BASE STYLING ------------------------ */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato";
+  color: ghostwhite;
+  background-color: #BADA55;
+}
+
+h1 {
+  font-size: 2.9rem;
+  margin-top: 5rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+h1, h2 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  text-align: justify;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.two-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 10rem;
+
+}
+
+.container, .content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.git {
+  background-color: ghostwhite;
+  border-radius: 6px;
+  width: 10rem;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 3rem;
+}
+
+.git a {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #BADA55;
+  text-decoration: none;
+}
+
+
+/* -------------------------- NAV buttons ------------------------ */
+
+button {
+  border: none;
+  color: ghostwhite;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Lato";
+}
+
+img {
+  width: 100%;
+  margin: 0.2rem auto;
+}
+
+.controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.nav {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 90px;
+  height: 90px;
+  margin: 1%;
+}
+
+.btxt {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.btn-stop {
+  background-color: red;
+}
+
+.btn-slow {
+  background-color: orange;
+}
+
+.btn-left, .btn-right {
+  background-color: green;
+}
+
+
+/* -------------------------- EMOJI buttons ------------------------ */
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.box {
+  width: 76px;
+  height: 55px;
+  border-radius: 1px;
+  background-color: white;
+  color: #303030;
+  border: 2px solid #303030;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.box:hover {
+  background-color: hotpink;
+  color: white;
+  border: none;
+}
+
+.btn-emoji {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+
+/* -------------------------- iPHONE  ------------------------ */
+
+.i-phone, .i-phone-inner {
+  background: #222222;
+  border-radius: 30px;
+  position: relative;
+  margin: auto;
+}
+
+.i-phone {
+  height: 500px;
+  width: 260px;
+}
+
+.i-phone-inner {
+  border: solid 1px #a3a3a3;
+  height: 498px;
+  width: 258px;
+}
+
+.i-phone-inner .circle-button {
+  background: #222;
+  border: solid 2px #444444;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 50%;
+  top: 48px;
+}
+
+.i-phone-inner .circle {
+  width: 50px;
+  height: 4px;
+  top: 14px;
+  border-radius: 2px;
+  margin: 0 auto;
+  margin-bottom: -12px;
+  position: relative;
+}
+
+.i-screen {
+  position: relative;
+  width: 230px;
+  height: 400px;
+  margin: 0 auto;
+  top: 44px;
+  overflow: hidden;
+}
+
+
+/* -------------------------- MEDIA QUERIES ------------------------ */
+
+@media (max-width: 760px) {
+  h1 {
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+  .git {
+    width: 10rem;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 3rem;
+  }
+  .git a {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 666px) {
+  h1 {
+    font-size: 2.6rem;
+    padding-top: 1rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  .two-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    margin-top: 5rem;
+
+  }
+  .container {
+    margin: auto;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  .para {
+    margin-top: 4rem;
+  }
+}
