@@ -127,13 +127,13 @@ img {
 	-webkit-box-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
-	width: 130px;
+	width: 100px;
 	height: 90px;
 	margin: 2px;
 }
 
 .btxt {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: bold;
 	letter-spacing: 0.2rem;
 	text-transform: uppercase;
