@@ -137,6 +137,7 @@ img {
 	font-weight: bold;
 	letter-spacing: 0.2rem;
 	text-transform: uppercase;
+	flex-flow: wrap;
 }
 
 .btn-stop {
@@ -235,7 +236,7 @@ img {
 	height: 400px;
 	margin: 0 auto;
 	top: 44px;
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 
 
