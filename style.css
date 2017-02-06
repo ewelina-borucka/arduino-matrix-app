@@ -1,6 +1,7 @@
 /* -------------------------- BASE STYLING ------------------------ */
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+
 * {
 	box-sizing: border-box;
 	font-size: 10px;
