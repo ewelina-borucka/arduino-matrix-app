@@ -287,6 +287,16 @@ img {
 		margin-top: 5rem;
 	}
 
+	.controls {
+		display: -webkit-flex;
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-orient: horizontal;
+	  -webkit-box-direction: reverse;
+	  -ms-flex-flow: row-reverse wrap;
+	          flex-flow: row-reverse wrap;
+
 	.container {
 		margin: auto;
 	}
