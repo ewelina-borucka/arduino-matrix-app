@@ -107,6 +107,12 @@ img {
 	/*margin-top: 10px;*/
 }
 
+.i-screen {
+	display: flex;
+	flex-flow: column;
+}
+
+
 .nav {
 	-webkit-box-flex: 1;
 	-ms-flex: 1;
