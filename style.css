@@ -235,7 +235,7 @@ img {
 	height: 400px;
 	margin: 0 auto;
 	top: 44px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 
@@ -303,7 +303,6 @@ img {
 
 	.container {
 		margin: auto;
-		display: flex;
 	}
 
 	p {
