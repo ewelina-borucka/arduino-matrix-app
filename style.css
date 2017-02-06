@@ -116,6 +116,7 @@ img {
 	-webkit-box-direction:reverse;
 	        flex-flow:wrap-reverse;
 	-ms-flex-pack: distribute;*/
+
 	/*justify-content: space-around;*/
 	/*margin-top: 10px;*/
 }
@@ -271,6 +272,7 @@ img {
 	h2 {
 		font-size: 1.7rem;
 	}
+
 	.two-section {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
@@ -279,10 +281,10 @@ img {
 		margin-top: 5rem;
 	}
 
-
 	.container {
 		margin: auto;
 	}
+	
 	p {
 		font-size: 1.8rem;
 	}
