@@ -124,7 +124,7 @@ img {
 	-webkit-box-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
-	width: 90px;
+	/*width: 90px;*/
 	height: 90px;
 	margin: 2px;
 }
