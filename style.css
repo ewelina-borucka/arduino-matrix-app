@@ -97,26 +97,20 @@ img {
 }
 
 .controls {
-	display: -webkit-box;
+	display: -webkit-flex;
+    -webkit-flex-flow: row-reverse wrap;
+    display: flex;
+    flex-flow: row-reverse wrap;
+	/*display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-flow: wrap;
 	-webkit-box-orient:vertical;
 	-webkit-box-direction:reverse;
 	        flex-flow:wrap-reverse;
-	-ms-flex-pack: distribute;
+	-ms-flex-pack: distribute;*/
 	/*justify-content: space-around;*/
 	/*margin-top: 10px;*/
-}
-
-.i-screen {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-flow: column;
-	        flex-flow: column;
 }
 
 
