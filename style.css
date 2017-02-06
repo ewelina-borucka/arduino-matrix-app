@@ -271,8 +271,16 @@ img {
 		flex-flow: column;
 		margin-top: 5rem;
 	}
+
+	.controls {
+		display: -webkit-flex;
+	    -webkit-flex-flow: row-reverse wrap;
+	    display: flex;
+	    flex-flow: row-reverse wrap;
+	}
+
 	.container {
-		margin: auto;
+		/*margin: auto;*/
 	}
 	p {
 		font-size: 1.8rem;
