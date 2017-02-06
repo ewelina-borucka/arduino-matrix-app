@@ -14,8 +14,8 @@ body {
 }
 
 h1 {
-	font-size: 2.9rem;
-	margin-top: 5rem;
+	font-size: 4.2rem;
+	margin-top: 4rem;
 }
 
 h2 {
@@ -101,15 +101,22 @@ img {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-flow: wrap;
-	flex-flow: wrap;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:reverse;
+	        flex-flow:wrap-reverse;
 	-ms-flex-pack: distribute;
 	/*justify-content: space-around;*/
 	/*margin-top: 10px;*/
 }
 
 .i-screen {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-flow: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: column;
+	        flex-flow: column;
 }
 
 
@@ -257,7 +264,7 @@ img {
 
 @media (max-width: 666px) {
 	h1 {
-		font-size: 2.6rem;
+		font-size: 2.8rem;
 		padding-top: 1rem;
 	}
 	h2 {
